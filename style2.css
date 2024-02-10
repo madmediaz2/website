@@ -1,0 +1,133 @@
+* {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        font-family: Arial, sans-serif;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1em;
+        background-color: #f5f5f5;
+    }
+    .logo {
+        width: 100px;
+        height: auto;
+    }
+    nav ul {
+        list-style: none;
+        display: flex;
+    }
+    nav ul li {
+        padding: 0 1em;
+    }
+    nav ul li a {
+        text-decoration: none;
+        color: #333;
+        background-color: #e2e2e2;
+        padding: 0.5em 1em;
+        border-radius: 5px;
+    }
+    .main-content {
+        display: flex;
+        padding: 0;
+        flex-direction: column;
+
+    }
+    .card-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-grow: 1;
+    }
+    .card {
+        border: 1px solid #ddd;
+        margin: 1em;
+        padding: 1em;
+        width: calc(50% - 2em);
+        text-align: center;
+    }
+    .card img {
+        max-width: 100%;
+        height: auto;
+        background-color: #e2e2e2;
+    }
+    .price {
+        background-color: #e2e2e2;
+        padding: 0.5em;
+        margin-top: 1em;
+    }
+    footer {
+        background-color: #f5f5f5;
+        text-align: center;
+        padding: 1em;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    .hero {
+        background-image: url(images/starbot.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        flex-grow: 1;
+        height: 400px;
+        background-color: #ddd;
+    }
+
+    .hero h1, .slogan {
+        font-size: 3em;
+        padding-top: 20px;
+        padding-left: 50px;
+    }
+
+    .hero-text {
+        font-size: larger;
+        padding: 50px;
+        padding-top: 40px;
+    }
+
+    .hero h1, .hero .slogan, .hero-text {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    
+
+    .info, .attractie {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .info img, .attractie img {
+        border-radius: 100%;
+        padding: 30px;
+    }
+
+    .info img {
+        height: 250px;
+    }
+
+    .attractie {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        margin-left: 30px;
+    }
+
+    .attractie img {
+        height: 600px;
+    }
+
+    .info-text {
+        font-size: larger;
+        font-weight: bolder;
+        padding: 40px
+    }
+
+    iframe {
+        width: 100%;
+    }
